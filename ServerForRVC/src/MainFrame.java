@@ -66,8 +66,6 @@ public class MainFrame extends JFrame implements Runnable{
 		if(!setDatabase())
 			return;
 		
-		
-		
 		new Thread(this).start();
 		
 		
